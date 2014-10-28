@@ -12,6 +12,8 @@ by Alexander Zielenski [here](https://github.com/alexzielenski/ThemeEngine).
 Designers, please read the `README-Designers.pdf` file for information on how to use this, and
 an example theme can be found in the `Tests` folder.
 
+Pre-release debs can be found [here](https://github.com/Matchstic/Equinox/releases).
+
 - - - 
 
 Under the hood, this hooks into `CoreUI.framework` and then returns alternate images out of 
