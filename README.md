@@ -28,7 +28,7 @@ There are still things that need to be worked on;
 - Improve caching of images
 - Small bug fixes relating to preferences on iOS 8
 - Handle all other .artwork files
-- Possible support for theming UIToolbar, UIAlertView etc with images
+- Possible support for theming `UIToolbar`, `UIAlertView` etc with images
 
 However, in it's current state it does work nicely.
 
