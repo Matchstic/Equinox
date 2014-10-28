@@ -24,7 +24,7 @@ for an example of how Equinox themes are set up.
 
 There are still things that need to be worked on;
 
-- Load iconCache images from WinterBoard themes as per in the `Tests' folder
+- Load iconCache images from WinterBoard themes as per in the `Tests` folder
 - Improve caching of images
 - Small bug fixes relating to preferences on iOS 8
 - Handle all other .artwork files
