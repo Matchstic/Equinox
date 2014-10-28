@@ -1,6 +1,8 @@
 Equinox
 =======
 
+Built using iOSOpenDev - some modification is required for use with theos.
+
 - - - 
 
 Equinox allows for easy theming of the images that WinterBoard cannot. It also provides an 
