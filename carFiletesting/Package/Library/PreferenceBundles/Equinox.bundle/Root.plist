@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Equinox</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Logged images can be found at /var/mobile/Library/Equinox/LoggedImages/</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.matchstic.Equinox/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.matchstic.Equinox</string>
+			<key>key</key>
+			<string>logImages</string>
+			<key>label</key>
+			<string>Log images</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Reload caches after making changes to your theme. If you have added or removed an image, restarting the appropriate app will suffice, otherwise use this option to reload your theme.</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>reloadCaches:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Reload caches</string>
+		</dict>
+	</array>
+</dict>
+</plist>

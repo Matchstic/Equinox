@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C975CC6C19FEDC4000044CD1 /* EQCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C975CC6A19FEDC4000044CD1 /* EQCache.h */; };
+		C975CC6D19FEDC4000044CD1 /* EQCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C975CC6B19FEDC4000044CD1 /* EQCache.m */; };
+		C975CC7019FEDC5900044CD1 /* EQResources.h in Headers */ = {isa = PBXBuildFile; fileRef = C975CC6E19FEDC5900044CD1 /* EQResources.h */; };
+		C975CC7119FEDC5900044CD1 /* EQResources.m in Sources */ = {isa = PBXBuildFile; fileRef = C975CC6F19FEDC5900044CD1 /* EQResources.m */; };
+		C975CC7419FEDC7100044CD1 /* EQNamedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = C975CC7219FEDC7100044CD1 /* EQNamedImage.h */; };
+		C975CC7519FEDC7100044CD1 /* EQNamedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C975CC7319FEDC7100044CD1 /* EQNamedImage.m */; };
+		C994CEBC18E86BEE00147698 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C994CEBB18E86BEE00147698 /* Foundation.framework */; };
+		C994CEC718E86BEE00147698 /* carFiletesting.mm in Sources */ = {isa = PBXBuildFile; fileRef = C994CEC618E86BEE00147698 /* carFiletesting.mm */; };
+		C994CED218E86CAE00147698 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C994CED118E86CAE00147698 /* UIKit.framework */; };
+		C994CED418E86CC000147698 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C994CED318E86CC000147698 /* libsubstrate.dylib */; };
+		C994CEDE18E898B700147698 /* CoreUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C994CEDD18E898B700147698 /* CoreUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C975CC6A19FEDC4000044CD1 /* EQCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQCache.h; sourceTree = "<group>"; };
+		C975CC6B19FEDC4000044CD1 /* EQCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQCache.m; sourceTree = "<group>"; };
+		C975CC6E19FEDC5900044CD1 /* EQResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQResources.h; sourceTree = "<group>"; };
+		C975CC6F19FEDC5900044CD1 /* EQResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQResources.m; sourceTree = "<group>"; };
+		C975CC7219FEDC7100044CD1 /* EQNamedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQNamedImage.h; sourceTree = "<group>"; };
+		C975CC7319FEDC7100044CD1 /* EQNamedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQNamedImage.m; sourceTree = "<group>"; };
+		C994CEB818E86BEE00147698 /* carFiletesting.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = carFiletesting.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		C994CEBB18E86BEE00147698 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C994CEC118E86BEE00147698 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		C994CEC318E86BEE00147698 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		C994CEC418E86BEE00147698 /* carFiletesting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "carFiletesting-Prefix.pch"; sourceTree = "<group>"; };
+		C994CEC518E86BEE00147698 /* carFiletesting.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = carFiletesting.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C994CEC618E86BEE00147698 /* carFiletesting.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = carFiletesting.mm; sourceTree = "<group>"; };
+		C994CED118E86CAE00147698 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C994CED318E86CC000147698 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		C994CEDD18E898B700147698 /* CoreUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreUI.framework; path = "../../../Downloads/iOS7-Runtime-Headers-master/PrivateFrameworks/CoreUI.framework"; sourceTree = "<group>"; };
+		C9DE03441A0024310035859A /* Equinox.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Equinox.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/Equinox.plist; sourceTree = "<group>"; };
+		C9F2098C18E8ED99004866CA /* libdispatch.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdispatch.dylib; path = usr/lib/system/introspection/libdispatch.dylib; sourceTree = SDKROOT; };
+		C9F2098E18E8EEE0004866CA /* libdispatch.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdispatch.dylib; path = usr/lib/system/libdispatch.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C994CEB418E86BEE00147698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C994CEDE18E898B700147698 /* CoreUI.framework in Frameworks */,
+				C994CED418E86CC000147698 /* libsubstrate.dylib in Frameworks */,
+				C994CED218E86CAE00147698 /* UIKit.framework in Frameworks */,
+				C994CEBC18E86BEE00147698 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C994CEAD18E86BEE00147698 = {
+			isa = PBXGroup;
+			children = (
+				C994CEBD18E86BEE00147698 /* carFiletesting */,
+				C994CEBA18E86BEE00147698 /* Frameworks */,
+				C994CEB918E86BEE00147698 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C994CEB918E86BEE00147698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C994CEB818E86BEE00147698 /* carFiletesting.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C994CEBA18E86BEE00147698 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9F2098E18E8EEE0004866CA /* libdispatch.dylib */,
+				C9F2098C18E8ED99004866CA /* libdispatch.dylib */,
+				C994CEDD18E898B700147698 /* CoreUI.framework */,
+				C994CED318E86CC000147698 /* libsubstrate.dylib */,
+				C994CED118E86CAE00147698 /* UIKit.framework */,
+				C994CEBB18E86BEE00147698 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C994CEBD18E86BEE00147698 /* carFiletesting */ = {
+			isa = PBXGroup;
+			children = (
+				C975CC6A19FEDC4000044CD1 /* EQCache.h */,
+				C975CC6B19FEDC4000044CD1 /* EQCache.m */,
+				C975CC7219FEDC7100044CD1 /* EQNamedImage.h */,
+				C975CC7319FEDC7100044CD1 /* EQNamedImage.m */,
+				C975CC6E19FEDC5900044CD1 /* EQResources.h */,
+				C975CC6F19FEDC5900044CD1 /* EQResources.m */,
+				C994CEC518E86BEE00147698 /* carFiletesting.xm */,
+				C994CEC618E86BEE00147698 /* carFiletesting.mm */,
+				C994CEBE18E86BEE00147698 /* Package */,
+				C994CEC218E86BEE00147698 /* Supporting Files */,
+			);
+			path = carFiletesting;
+			sourceTree = "<group>";
+		};
+		C994CEBE18E86BEE00147698 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				C994CEBF18E86BEE00147698 /* DEBIAN */,
+				C994CEC818E86BEE00147698 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		C994CEBF18E86BEE00147698 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				C994CEC118E86BEE00147698 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		C994CEC218E86BEE00147698 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C994CEC318E86BEE00147698 /* PackageVersion.plist */,
+				C994CEC418E86BEE00147698 /* carFiletesting-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C994CEC818E86BEE00147698 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C994CEC918E86BEE00147698 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		C994CEC918E86BEE00147698 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				C994CECA18E86BEE00147698 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		C994CECA18E86BEE00147698 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				C9DE03441A0024310035859A /* Equinox.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C994CEB518E86BEE00147698 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C975CC7019FEDC5900044CD1 /* EQResources.h in Headers */,
+				C975CC6C19FEDC4000044CD1 /* EQCache.h in Headers */,
+				C975CC7419FEDC7100044CD1 /* EQNamedImage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C994CEB718E86BEE00147698 /* carFiletesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C994CECE18E86BEE00147698 /* Build configuration list for PBXNativeTarget "carFiletesting" */;
+			buildPhases = (
+				C994CEB218E86BEE00147698 /* ShellScript */,
+				C994CEB318E86BEE00147698 /* Sources */,
+				C994CEB418E86BEE00147698 /* Frameworks */,
+				C994CEB518E86BEE00147698 /* Headers */,
+				C994CEB618E86BEE00147698 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = carFiletesting;
+			productName = carFiletesting;
+			productReference = C994CEB818E86BEE00147698 /* carFiletesting.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C994CEAE18E86BEE00147698 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = C994CEB118E86BEE00147698 /* Build configuration list for PBXProject "carFiletesting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C994CEAD18E86BEE00147698;
+			productRefGroup = C994CEB918E86BEE00147698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C994CEB718E86BEE00147698 /* carFiletesting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C994CEB218E86BEE00147698 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		C994CEB618E86BEE00147698 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C994CEB318E86BEE00147698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C994CEC718E86BEE00147698 /* carFiletesting.mm in Sources */,
+				C975CC7119FEDC5900044CD1 /* EQResources.m in Sources */,
+				C975CC6D19FEDC4000044CD1 /* EQCache.m in Sources */,
+				C975CC7519FEDC7100044CD1 /* EQNamedImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C994CECC18E86BEE00147698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		C994CECD18E86BEE00147698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		C994CECF18E86BEE00147698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Matt/Downloads/iOS7-Runtime-Headers-master/PrivateFrameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "carFiletesting/carFiletesting-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+					"$(SDKROOT)/usr/lib/system/introspection",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = NO;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		C994CED018E86BEE00147698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Matt/Downloads/iOS7-Runtime-Headers-master/PrivateFrameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "carFiletesting/carFiletesting-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+					"$(SDKROOT)/usr/lib/system/introspection",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = NO;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C994CEB118E86BEE00147698 /* Build configuration list for PBXProject "carFiletesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C994CECC18E86BEE00147698 /* Debug */,
+				C994CECD18E86BEE00147698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C994CECE18E86BEE00147698 /* Build configuration list for PBXNativeTarget "carFiletesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C994CECF18E86BEE00147698 /* Debug */,
+				C994CED018E86BEE00147698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C994CEAE18E86BEE00147698 /* Project object */;
+}

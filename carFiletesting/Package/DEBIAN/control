@@ -1,0 +1,17 @@
+Package: com.matchstic.Equinox
+Name: Equinox
+Version: 0.2.5
+Description: A revolution in iOS 7 theming
+Section: System
+Depends: firmware (>= 7.0), mobilesubstrate
+Conflicts: 
+Replaces: com.matchstic.testdrive
+Priority: optional
+Architecture: iphoneos-arm
+Author: Matt Clarke
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon:
+

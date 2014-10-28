@@ -1,0 +1,1 @@
+Please refer to README-Designers.pdf found at http://github.com/Matchstic/Equinox

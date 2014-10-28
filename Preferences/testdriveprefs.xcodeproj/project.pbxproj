@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9F2096418E8E0B2004866CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F2096318E8E0B2004866CA /* Foundation.framework */; };
+		C9F2096618E8E0B2004866CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F2096518E8E0B2004866CA /* UIKit.framework */; };
+		C9F2096818E8E0B2004866CA /* Preferences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F2096718E8E0B2004866CA /* Preferences.framework */; };
+		C9F2097318E8E0B2004866CA /* testdriveprefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F2097218E8E0B2004866CA /* testdriveprefsController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9F2096018E8E0B2004866CA /* testdriveprefs.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testdriveprefs.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F2096318E8E0B2004866CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9F2096518E8E0B2004866CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9F2096718E8E0B2004866CA /* Preferences.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Preferences.framework; path = Library/Frameworks/Preferences.framework; sourceTree = DEVELOPER_DIR; };
+		C9F2096C18E8E0B2004866CA /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		C9F2096D18E8E0B2004866CA /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		C9F2096F18E8E0B2004866CA /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		C9F2097018E8E0B2004866CA /* testdriveprefs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testdriveprefs-Info.plist"; sourceTree = "<group>"; };
+		C9F2097118E8E0B2004866CA /* testdriveprefsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testdriveprefsController.h; sourceTree = "<group>"; };
+		C9F2097218E8E0B2004866CA /* testdriveprefsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testdriveprefsController.m; sourceTree = "<group>"; };
+		C9F2097718E8E0B2004866CA /* testdriveprefs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = testdriveprefs.plist; path = Package/Library/PreferenceLoader/Preferences/testdriveprefs.plist; sourceTree = "<group>"; };
+		C9F2097A18E8E0B2004866CA /* testdriveprefs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = testdriveprefs.plist; path = Package/Library/PreferenceBundles/testdriveprefs.bundle/testdriveprefs.plist; sourceTree = "<group>"; };
+		C9F2097B18E8E0B2004866CA /* testdriveprefsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = testdriveprefsIcon.png; path = Package/Library/PreferenceBundles/testdriveprefs.bundle/testdriveprefsIcon.png; sourceTree = "<group>"; };
+		C9F2097C18E8E0B2004866CA /* testdriveprefsIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "testdriveprefsIcon@2x.png"; path = "Package/Library/PreferenceBundles/testdriveprefs.bundle/testdriveprefsIcon@2x.png"; sourceTree = "<group>"; };
+		C9F2098118E8E0B2004866CA /* com.matchstic.testdriveprefs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = com.matchstic.testdriveprefs.plist; path = Package/var/mobile/Library/Preferences/com.matchstic.testdriveprefs.plist; sourceTree = "<group>"; };
+		C9F2098218E8E0B2004866CA /* testdriveprefs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testdriveprefs-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9F2095C18E8E0B2004866CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F2096418E8E0B2004866CA /* Foundation.framework in Frameworks */,
+				C9F2096818E8E0B2004866CA /* Preferences.framework in Frameworks */,
+				C9F2096618E8E0B2004866CA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9F2095618E8E0B2004866CA = {
+			isa = PBXGroup;
+			children = (
+				C9F2096918E8E0B2004866CA /* testdriveprefs */,
+				C9F2096218E8E0B2004866CA /* Frameworks */,
+				C9F2096118E8E0B2004866CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9F2096118E8E0B2004866CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9F2096018E8E0B2004866CA /* testdriveprefs.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9F2096218E8E0B2004866CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9F2096318E8E0B2004866CA /* Foundation.framework */,
+				C9F2096518E8E0B2004866CA /* UIKit.framework */,
+				C9F2096718E8E0B2004866CA /* Preferences.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9F2096918E8E0B2004866CA /* testdriveprefs */ = {
+			isa = PBXGroup;
+			children = (
+				C9F2097118E8E0B2004866CA /* testdriveprefsController.h */,
+				C9F2097218E8E0B2004866CA /* testdriveprefsController.m */,
+				C9F2096A18E8E0B2004866CA /* Package */,
+				C9F2096E18E8E0B2004866CA /* Supporting Files */,
+			);
+			path = testdriveprefs;
+			sourceTree = "<group>";
+		};
+		C9F2096A18E8E0B2004866CA /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				C9F2096B18E8E0B2004866CA /* DEBIAN */,
+				C9F2097418E8E0B2004866CA /* Library */,
+				C9F2097D18E8E0B2004866CA /* var */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		C9F2096B18E8E0B2004866CA /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				C9F2096C18E8E0B2004866CA /* control.txt */,
+				C9F2096D18E8E0B2004866CA /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		C9F2096E18E8E0B2004866CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9F2096F18E8E0B2004866CA /* PackageVersion.plist */,
+				C9F2097018E8E0B2004866CA /* testdriveprefs-Info.plist */,
+				C9F2098218E8E0B2004866CA /* testdriveprefs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9F2097418E8E0B2004866CA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C9F2097518E8E0B2004866CA /* PreferenceLoader */,
+				C9F2097818E8E0B2004866CA /* PreferenceBundles */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		C9F2097518E8E0B2004866CA /* PreferenceLoader */ = {
+			isa = PBXGroup;
+			children = (
+				C9F2097618E8E0B2004866CA /* Preferences */,
+			);
+			name = PreferenceLoader;
+			sourceTree = "<group>";
+		};
+		C9F2097618E8E0B2004866CA /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				C9F2097718E8E0B2004866CA /* testdriveprefs.plist */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		C9F2097818E8E0B2004866CA /* PreferenceBundles */ = {
+			isa = PBXGroup;
+			children = (
+				C9F2097918E8E0B2004866CA /* ___PACKAGENAME___.bundle */,
+			);
+			name = PreferenceBundles;
+			sourceTree = "<group>";
+		};
+		C9F2097918E8E0B2004866CA /* ___PACKAGENAME___.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				C9F2097A18E8E0B2004866CA /* testdriveprefs.plist */,
+				C9F2097B18E8E0B2004866CA /* testdriveprefsIcon.png */,
+				C9F2097C18E8E0B2004866CA /* testdriveprefsIcon@2x.png */,
+			);
+			name = "___PACKAGENAME___.bundle";
+			sourceTree = "<group>";
+		};
+		C9F2097D18E8E0B2004866CA /* var */ = {
+			isa = PBXGroup;
+			children = (
+				C9F2097E18E8E0B2004866CA /* mobile */,
+			);
+			name = var;
+			sourceTree = "<group>";
+		};
+		C9F2097E18E8E0B2004866CA /* mobile */ = {
+			isa = PBXGroup;
+			children = (
+				C9F2097F18E8E0B2004866CA /* Library */,
+			);
+			name = mobile;
+			sourceTree = "<group>";
+		};
+		C9F2097F18E8E0B2004866CA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C9F2098018E8E0B2004866CA /* Preferences */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		C9F2098018E8E0B2004866CA /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				C9F2098118E8E0B2004866CA /* com.matchstic.testdriveprefs.plist */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C9F2095D18E8E0B2004866CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C9F2095F18E8E0B2004866CA /* testdriveprefs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9F2098518E8E0B2004866CA /* Build configuration list for PBXNativeTarget "testdriveprefs" */;
+			buildPhases = (
+				C9F2095B18E8E0B2004866CA /* Sources */,
+				C9F2095C18E8E0B2004866CA /* Frameworks */,
+				C9F2095D18E8E0B2004866CA /* Headers */,
+				C9F2095E18E8E0B2004866CA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testdriveprefs;
+			productName = testdriveprefs;
+			productReference = C9F2096018E8E0B2004866CA /* testdriveprefs.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9F2095718E8E0B2004866CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = C9F2095A18E8E0B2004866CA /* Build configuration list for PBXProject "testdriveprefs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9F2095618E8E0B2004866CA;
+			productRefGroup = C9F2096118E8E0B2004866CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9F2095F18E8E0B2004866CA /* testdriveprefs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9F2095E18E8E0B2004866CA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9F2095B18E8E0B2004866CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F2097318E8E0B2004866CA /* testdriveprefsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C9F2098318E8E0B2004866CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		C9F2098418E8E0B2004866CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		C9F2098618E8E0B2004866CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testdriveprefs/testdriveprefs-Prefix.pch";
+				INFOPLIST_FILE = "testdriveprefs/testdriveprefs-Info.plist";
+				INSTALL_PATH = /Library/PreferenceBundles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		C9F2098718E8E0B2004866CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testdriveprefs/testdriveprefs-Prefix.pch";
+				INFOPLIST_FILE = "testdriveprefs/testdriveprefs-Info.plist";
+				INSTALL_PATH = /Library/PreferenceBundles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9F2095A18E8E0B2004866CA /* Build configuration list for PBXProject "testdriveprefs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F2098318E8E0B2004866CA /* Debug */,
+				C9F2098418E8E0B2004866CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9F2098518E8E0B2004866CA /* Build configuration list for PBXNativeTarget "testdriveprefs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F2098618E8E0B2004866CA /* Debug */,
+				C9F2098718E8E0B2004866CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9F2095718E8E0B2004866CA /* Project object */;
+}
