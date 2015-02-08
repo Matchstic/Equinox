@@ -1,6 +1,8 @@
 Equinox
 =======
 
+###This project is now obselete
+
 Built using iOSOpenDev - some modification is required for use with theos.
 
 - - - 
